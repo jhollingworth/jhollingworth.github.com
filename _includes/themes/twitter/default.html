@@ -33,7 +33,9 @@
           <ul class="nav">
             {% assign pages_list = site.pages %}
             {% assign group = 'navigation' %}
-            {% include JB/pages_list %}
+            <li>
+              <a href="/about.html">About</a>
+            </li>
           </ul>
         </div>
       </div>
@@ -46,10 +48,7 @@
       </div>
 
       <footer>
-        <p>&copy; {{ site.author.name }} 2012 
-          with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
-          and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
-        </p>
+        <p>&copy; {{ site.author.name }} 2012</p>
       </footer>
 
     </div> <!-- /container -->
